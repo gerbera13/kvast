@@ -46,7 +46,6 @@ body {
 .btn:active {
     color: rgba(210 195 179 0.3);
     border-color: #88735a;
-
 }
 
 .btn-quick {
