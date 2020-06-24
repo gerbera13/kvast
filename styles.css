@@ -134,7 +134,7 @@ table {
     font-size: 14px;
     color: #404040;
     margin-top: 10px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 
@@ -224,7 +224,6 @@ table {
     justify-content: space-between;
     padding-top: 80px;
     padding-bottom: 80px;
-
 }
 
 
@@ -253,7 +252,6 @@ table {
     font-size: 20px;
     margin-top: 33px;
     margin-bottom: 19px;
-
 }
 
 .text {
@@ -262,19 +260,15 @@ table {
 
 .decoration-title {
     font-size: 40px;
-
     text-transform: uppercase;
-
     margin-top: 100px;
     margin-bottom: 70px;
-
 }
 
 .history-box {
     display: flex;
     flex-direction: row;
     margin-bottom: 64px;
-
 }
 
 .history-title {
@@ -283,7 +277,6 @@ table {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 23px;
-
 }
 
 .history-source {
