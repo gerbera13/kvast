@@ -166,7 +166,6 @@
         </div>
     </div>
 </div>
-
 <div class="catalog">
     <div class="container800">
         <h2 class="caption">Ассортимент</h2>
@@ -176,8 +175,8 @@
                 <th class="th-1">Название</th>
                 <th class="th-2">Алк.</th>
                 <th class="th-3">Ккал</th>
-                <th>Объём</th>
-                <th class="text-right">Стоимость</th>
+                <th class="th-4">Объём</th>
+                <th class="th-5">Стоимость</th>
             </tr>
             </thead>
             <tr>
@@ -208,53 +207,87 @@
                 <td class="text-right">90 Р.</td>
             </tr>
         </table>
-
     </div>
 </div>
-
-
 <div class="order">
     <div class="container800">
-        <a class="btn"><h2>Заказать</h2></a>
-        <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас
-            сейчас.
-            При
-            заказе от 10 баррелей — скидка 10%.</p>
-        <form>
-            <div>Представьтесь: <input type="text"></div>
-            <div>Номер телефона: <input type="number"></div>
-            <div>Доп. номер: <input type="number"></div>
-            <div>Email: <input type="email"></div>
-            <div>
-                Объём заказа:<br>
-                <select>
-                    <option value="">От 5 до 10 баррелей в неделю</option>
-                </select>
+        <div class="order-box">
+            <div class="order-title">Заказать</div>
+            <div class="order-text">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите
+                настоящий крафтовый квас
+                сейчас.
+                При
+                заказе от 10 баррелей — скидка 10%.
             </div>
-            Доп. комментарий: <textarea name="comment" rows="2"></textarea><br>
-            <label for="confirm"><input id="confirm" type="checkbox" checked> Я согласен получать квасную
-                рассылку</label><br>
-            <input type="submit" value="Отправить заказ">
-        </form>
+            <div class="order-form">
+                <form>
+                    <div class="order-btn present-box">
+                        <label for="p-box">Представьтесь: </label>
+                        <input id="p-box" type="text"></div>
+                    <div class="order-btn-a">
+                        <div>
+                            <label for="phone">Номер телефона: </label><input type="number" name="phone" id="phone">
+                        </div>
+                        <div>
+                            <label for="number">Доп. номер: </label><input type="number" name="number" id="number">
+                        </div>
+                    </div>
+                    <div class="order-btn email-box">Email: <input type="email"></div>
+                    <div class="order-btn">
+                        Объём заказа:<br>
+                        <select class="option-box">
+                            <option value="">От 5 до 10 баррелей в неделю</option>
+                        </select>
+                    </div>
+                    <div class="order-btn comment-box">
+                        <div class="textarea">Доп. комментарий: <textarea name="comment" rows="2"></textarea></div>
+                        <label for="confirm">
+                            <input id="confirm" type="checkbox" checked>
+                            Я согласен получать квасную рассылку
+                        </label>
+                    </div>
+                    <div class="order-submit">Отправить заказ</div>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 <div class="page-footer">
-    <div class="footer-top">
-        <img src="img/logo.png" width="140" height="76" alt="Кваст">
-    </div>
-    <div class="footer-midle">
-        <ul>
-            <li><a href="#">История</a></li>
-            <li><a href="#">Производство</a></li>
-            <li><a href="#">Ассортимент</a></li>
-            <li><a href="#">Где купить</a></li>
-        </ul>
-    </div>
-    <div class="footer-bottom">
-        <p><a href="#">Инстаграм</a> <a href="#">Фейсбук</a> <a href="#">Вконтакте</a></p>
+    <div class="container1000">
+        <div class="footer-top">
+            <img src="img/logo.png" width="140" height="76" alt="Кваст">
+            <div class="footer-midle">
+                <ul class="main-nav">
+                    <li><a href="#">История</a></li>
+                    <li><a href="#">Производство</a></li>
+                    <li><a href="#">Ассортимент</a></li>
+                    <li><a href="#">Где купить</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
 
-        <p>При перепечатке материалов ссылка на сайт обязательна!</p>
-        <p><img src="img/htmlacademy.png"><strong>Разработчик:</strong> <a href="#">HTML Academy</a></p>
+            <div class="social-menu">
+                <div class="footer-img"><img src="img/icon-insta.png" alt="Инстаграм"></div>
+                <div class="footer-img"><img src="img/icon-fb.png" alt="Фейсбук"></div>
+                <div class="footer-img last-child"><img src="img/icon-vk.png" alt="Вконтакте"></div>
+            </div>
+
+            <div></div>
+
+            <div class="footer-menu"><span>При перепечатке материалов ссылка на сайт обязательна!</span></div>
+
+            <div></div>
+
+            <div class="footer-img last-child"><img src="img/htmlacademy.png"></div>
+            <div class="footer-text">
+                <span><b>Разработчик:</b> HTML Academy</span>
+            </div>
+
+        </div>
     </div>
+
 </div>
+
+
 </body>
